@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>devChallenges - Contact Page</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="./assets/logo.svg" alt="logo">
+        </div>
+    </nav>
+    <header>
+        <h1>Interested in our business pricing?</h1>
+        <h2>Fill out the form to view details and we’ll contact you as soon as possible.</h2>
+    </header>
+    <main>
+        <form action="index.html">
+            <div class="form-control half-width">
+                <label for="name">name</label>
+                <input class="field" type="text" name="name" id="name" placeholder="Ethan Johnson">
+            </div>
+            <div class="form-control half-width">
+                <label for="email">company email</label>
+                <input class="field" type="email" name="email" id="email" placeholder="ethan@johnson.com">
+            </div>
+            <div class="form-control half-width">
+                <label for="size">size</label>
+                <img src="./assets/arrow_down.svg" alt="arrow down">
+                <select class="field" name="size" id="size">
+                    <option value="0-50 employees">0-50 employees</option>
+                    <option value="50-100 employees">50-100 employees</option>
+                    <option value="100-150 employees">100-150 employees</option>
+                    <option value="150-200 employees">150-200 employees</option>
+                    <option value="more than 200 employees">more than 200 employees</option>
+                </select>
+            </div>
+            <div class="form-control half-width">
+                <label for="subject">subject</label>
+                <img src="./assets/arrow_down.svg" alt="arrow down">
+                <select class="field" name="subject" id="subject">
+                    <option value="0-50 employees">Building Landing pages</option>
+                    <option value="50-100 employees">Building websites</option>
+                    <option value="100-150 employees">Managing data</option>
+                    <option value="150-200 employees">Hosting websites</option>
+                    <option value="more than 200 employees">Managing tech part</option>
+                </select>
+            </div>
+            <div class="form-control">
+                <label for="message">message</label>
+                <textarea class="field" name="message" id="message" placeholder="Type your message....."></textarea>
+            </div>
+            <input class="submit" type="submit" value="contact sales">
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  background-image: url("../assets/bg-image.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  margin: 30px 40px;
+}
+@media (min-width: 922px) {
+  nav {
+    margin: 30px 80px !important;
+  }
+}
+
+header {
+  margin-bottom: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+@media (min-width: 641px) {
+  header {
+    margin-left: 40px !important;
+    margin-right: 40px !important;
+  }
+}
+header h1 {
+  font-size: 50px;
+  font-weight: 600;
+  color: #FFFFFF;
+  text-align: center;
+  max-width: 600px;
+  line-height: 60px;
+  margin: 0 auto 25px;
+}
+@media (min-width: 400px) {
+  header h1 {
+    font-size: 64px !important;
+    line-height: 80px;
+  }
+}
+header h2 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 45px;
+  color: #FFFFFF;
+  text-align: center;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+main {
+  margin-bottom: 30px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+@media (min-width: 641px) {
+  main {
+    margin-left: 40px !important;
+    margin-right: 40px !important;
+  }
+}
+main form {
+  max-width: 800px;
+  background-color: #7E51B8;
+  padding: 40px 30px;
+  border-radius: 20px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px 15px;
+}
+main form .form-control {
+  position: relative;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  main form .form-control.half-width {
+    width: calc(50% - 10px) !important;
+  }
+}
+main form .form-control label {
+  display: block;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+main form .form-control .field {
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  padding: 20px;
+  font-size: 16px;
+  color: #111729;
+  font-weight: 600;
+  transition: .3s linear;
+}
+main form .form-control input, main form .form-control textarea {
+  caret-color: #7E51B8;
+}
+main form .form-control input::placeholder, main form .form-control textarea::placeholder {
+  color: #CDD5E0;
+  transition: opacity .3s linear;
+}
+main form .form-control input:focus::placeholder, main form .form-control textarea:focus::placeholder {
+  opacity: 0;
+}
+main form .form-control img {
+  position: absolute;
+  right: 7px;
+  bottom: 16px;
+}
+main form .form-control select {
+  cursor: pointer;
+  appearance: none;
+}
+main form .form-control select:focus {
+  border-radius: 15px 15px 0 0;
+}
+main form .form-control textarea {
+  resize: none;
+  height: 180px;
+}
+main form .submit {
+  border: none;
+  outline: none;
+  background-color: #FFFFFF;
+  padding: 20px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 20px;
+  color: #4036A9;
+  border-radius: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=main.css.map */
